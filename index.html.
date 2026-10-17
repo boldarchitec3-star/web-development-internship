@@ -1,1 +1,50 @@
-Created my first HTML webpage as part of my web development internship.
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            text-align: center;
+            padding: 50px 20px;
+        }    .card {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    h1 {
+        color: #d81b60;
+    }
+
+    p {
+        color: #444;
+        font-size: 18px;
+    }
+
+    button {
+        background-color: #d81b60;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+</style>
+
+</head>
+<body>
+    <div class="card">
+        <h1>Welcome to My First Website! 🌸</h1>
+        <p>Hello! I'm learning web development.</p>
+        <p>This is my first internship project.</p>
+        <button onclick="alert('Thank you for visiting!')">
+            Click Me!
+        </button>
+    </div>
+</body>
+</html>
